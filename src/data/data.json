@@ -118,22 +118,22 @@
     {
       "img": "img/team/01.jpg",
       "name": "Lữ Xuân Minh",
-      "job": "Founder"
+      "job": "Founder, CEO"
     },
     {
       "img": "img/team/03.jpg",
       "name": "Võ Xuân An",
-      "job": "Business Team Lead"
+      "job": "Co-founder, Business Team Leader, CFO"
     },
     {
       "img": "img/team/02.jpg",
       "name": "Trần Vĩ Quang",
-      "job": "Senior Frontend Developer"
+      "job": "Co-founder, Public Relation Manager"
     },
     {
       "img": "img/team/04.jpg",
       "name": "Trần Thế Nhân",
-      "job": "Senior Backend Developer"
+      "job": "Co-founder, Strategy manager"
     }
   ],
   "Contact": {
