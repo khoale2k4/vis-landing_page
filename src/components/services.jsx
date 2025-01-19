@@ -5,10 +5,9 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>Services</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Chúng tôi cung cấp các dịch vụ công nghệ toàn diện, từ tư vấn, phát triển phần mềm, chuyển đổi số đến bảo trì, đào tạo và bảo mật, giúp doanh nghiệp tối ưu hóa hoạt động và phát triển bền vững.
           </p>
         </div>
         <div className="row">

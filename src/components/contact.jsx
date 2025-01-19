@@ -24,7 +24,7 @@ export const Contact = (props) => {
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_2h3t88a", "template_3suyw9i", e.target, "pys2JrP-2dbOJJJ9Q")
       .then(
         (result) => {
           console.log(result.text);
@@ -44,8 +44,7 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Get In Touch</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                Vui lòng điền vào biểu mẫu dưới đây để gửi email, chúng tôi sẽ phản hồi bạn trong thời gian sớm nhất.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -57,7 +56,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Tên của bạn"
                         required
                         onChange={handleChange}
                       />
@@ -85,7 +84,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Lời nhắn"
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -93,7 +92,7 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Gửi
                 </button>
               </form>
             </div>
@@ -103,7 +102,7 @@ export const Contact = (props) => {
               <h3>Contact Info</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker"></i> Địa chỉ
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -111,7 +110,7 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i> SĐT
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -153,10 +152,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+            Bản quyền &copy; 2022 - 2025 thuộc về VIS. Nghiêm cấm sao chép, sử dụng hoặc phân phối nội dung trên trang web này khi chưa có sự cho phép bằng văn bản từ VIS.
           </p>
         </div>
       </div>

@@ -1,100 +1,85 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Vietnam Innovative Solutions",
+    "paragraph": "Học viện phát triển ứng dụng Web và AI."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Chúng tôi là một start-up công nghệ với sứ mệnh mang đến những giải pháp sáng tạo, tối ưu hóa quy trình và nâng cao hiệu quả cho doanh nghiệp. Với đội ngũ chuyên gia giàu kinh nghiệm và đam mê, chúng tôi không ngừng nỗ lực để tạo ra các sản phẩm và dịch vụ chất lượng, đáp ứng nhu cầu ngày càng đa dạng của khách hàng.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Giải pháp đột phá",
+      "Đội ngũ chuyên nghiệp",
+      "Hiệu quả tối ưu",
+      "Công nghệ hiện đại"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Hợp tác bền vững",
+      "Dịch vụ tận tâm",
+      "Linh hoạt và sáng tạo",
+      "Minh bạch và uy tín"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "AIoT Developer",
+      "largeImage": "img/portfolio/aiot.png",
+      "smallImage": "img/portfolio/aiot.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Engonow",
+      "largeImage": "img/portfolio/engonow-vis.png",
+      "smallImage": "img/portfolio/engonow-vis.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Engonow",
+      "largeImage": "img/portfolio/engo-test.png",
+      "smallImage": "img/portfolio/engo-test.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Engonow",
+      "largeImage": "img/portfolio/engo-colab.png",
+      "smallImage": "img/portfolio/engo-colab.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "DripCare",
+      "largeImage": "img/portfolio/drip-care.png",
+      "smallImage": "img/portfolio/drip-care.png"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "AlphaCampus",
+      "largeImage": "img/portfolio/alpha-campus.png",
+      "smallImage": "img/portfolio/alpha-campus.png"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Phát triển phần mềm tùy chỉnh",
+      "text": "Dịch vụ phát triển phần mềm chuyên biệt được thiết kế theo yêu cầu riêng của từng doanh nghiệp, đảm bảo tính hiệu quả và linh hoạt cao."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Hỗ trợ và bảo trì",
+      "text": "Đội ngũ kỹ thuật chuyên nghiệp của chúng tôi luôn sẵn sàng hỗ trợ và bảo trì hệ thống, đảm bảo hoạt động ổn định và hiệu quả cho khách hàng."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Giải pháp chuyển đổi số",
+      "text": "Đồng hành cùng doanh nghiệp trong hành trình chuyển đổi số, từ việc tích hợp công nghệ đến tối ưu hóa quy trình kinh doanh toàn diện."
+    },
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Tư vấn và triển khai giải pháp công nghệ",
+      "text": "Chúng tôi cung cấp dịch vụ tư vấn và triển khai các giải pháp công nghệ tối ưu, giúp doanh nghiệp nâng cao hiệu quả hoạt động và cạnh tranh trên thị trường."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Đào tạo và hỗ trợ nhân sự",
+      "text": "Cung cấp các khóa đào tạo công nghệ cho nhân viên doanh nghiệp, giúp nâng cao kỹ năng và tối ưu hóa việc vận hành hệ thống."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Cung cấp hạ tầng và bảo mật",
+      "text": "Triển khai các giải pháp hạ tầng công nghệ thông tin kết hợp với công nghệ bảo mật tiên tiến, đảm bảo an toàn và bảo vệ dữ liệu doanh nghiệp."
     }
   ],
   "Testimonials": [
@@ -132,30 +117,30 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Lữ Xuân Minh",
+      "job": "Founder"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Trần Anh Khang",
+      "job": "Sponsor"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Trần Vĩ Quang",
+      "job": "Senior Frontend Developer"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "Trần Thế Nhân",
+      "job": "Senior Backend Developer"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
+    "address": "KÝ TÚC XÁ KHU A: đường Tạ Quang Bửu, Khu phố 6, Phường Linh Trung, Thành phố Thủ Đức, Thành phố Hồ Chí Minh ",
+    "phone": "+84 981 430 418",
+    "email": "minh.luxuanhcmut@hcmut.edu.vn",
+    "facebook": "https://www.facebook.com/profile.php?id=100093628926428",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },

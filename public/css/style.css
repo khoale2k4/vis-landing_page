@@ -76,7 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #093762;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -86,11 +86,20 @@ hr {
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
+  display: flex; /* Sử dụng Flexbox để căn chỉnh logo */
+  align-items: center; /* Căn giữa logo theo chiều dọc */
 }
+
+#menu a.navbar-brand img {
+  max-height: 50px; /* Đặt chiều cao tối đa cho logo */
+  width: auto; /* Đảm bảo tỷ lệ logo không bị méo */
+  margin-right: 10px; /* Khoảng cách giữa logo và text (nếu có) */
+}
+
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #fff;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -104,7 +113,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #093762 0%, #6fa6de 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +134,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #093762 0%, #6fa6de 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -152,7 +161,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #093762 0%, #6fa6de 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -167,25 +176,36 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-image: linear-gradient(to right, #093762 0%, #6fa6de 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
   font-size: 15px;
-  font-weight: 500;
-  border-radius: 25px;
-  transition: all 0.5s linear;
-  border: 0;
+  font-weight: 600; /* Tăng độ đậm cho chữ */
+  border-radius: 30px; /* Tăng độ cong của nút */
+  transition: all 0.3s ease; /* Hiệu ứng chuyển mượt hơn */
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  cursor: pointer; /* Thay đổi con trỏ khi hover */
 }
-.btn-custom:hover,
-.btn-custom:focus,
-.btn-custom.focus,
-.btn-custom:active,
-.btn-custom.active {
+
+.btn-custom:hover {
   color: #fff;
-  background-image: none;
-  background-color: #6372ff;
+  background-image: linear-gradient(to right, #ed8f3d, #f9ba59); /* Chuyển sang gradient khác khi hover */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Tăng bóng khi hover */
+  transform: translateY(-2px); /* Tạo hiệu ứng nổi */
 }
+
+.btn-custom:active {
+  transform: translateY(0); /* Trở lại vị trí ban đầu khi click */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bóng giảm khi click */
+}
+
+.btn-custom:focus {
+  outline: none; /* Loại bỏ viền mặc định */
+  box-shadow: 0 0 0 3px rgba(92, 169, 251, 0.5); /* Thêm viền sáng khi focus */
+}
+
 .btn:active,
 .btn.active {
   background-image: none;
@@ -246,7 +266,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  background: #e8edef;
 }
 #features i.fa {
   font-size: 38px;
@@ -257,7 +277,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #093762 0%, #6fa6de 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -276,7 +296,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #093762 0%, #6fa6de 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -307,10 +327,34 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+#about .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#about .col-xs-12 {
+  flex: 1;
+  padding: 0 15px; /* Optional for adding space between columns */
+}
+
+#about img {
+  width: 100%; /* Ensure the image is responsive */
+  max-width: 520px; /* Optional: restricts the maximum width of the image */
+  margin-top: 10px;
+  background: #fff;
+  border-right: 0;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+
+#about .about-text {
+  padding-left: 20px; /* Optional: adjust padding for better text alignment */
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #093762 0%, #6fa6de 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -334,7 +378,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #093762 0%, #6fa6de 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -352,11 +396,23 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-  padding: 100px 0;
+  padding: 100px 1;
 }
 .portfolio-item {
-  margin: 1px -15px 0 -14px;
-  padding: 0;
+  position: relative;
+  width: 100%; /* Chiều rộng 100% của cột */
+  height: 200px;
+  overflow: hidden;
+}
+
+.portfolio-item:nth-child(odd) {
+  padding: 10px; /* Padding riêng cho phần tử lẻ */
+}
+
+.portfolio-item img {
+  width: 100%; /* Đảm bảo hình ảnh lấp đầy chiều ngang */
+  height: 100%; 
+  object-fit: cover;
 }
 .portfolio-item .hover-bg {
   overflow: hidden;
@@ -367,13 +423,15 @@ header .intro-text {
   position: absolute;
   text-align: center;
   margin: 0 auto;
+  display: flex; /* Kích hoạt Flexbox */
+  justify-content: center; /* Căn giữa theo chiều ngang */
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
+    #093762 0%,
+    #6fa6de 100%
   );
-  padding: 30% 0 0;
+  padding: 20% 0 0;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -442,6 +500,7 @@ header .intro-text {
 /* Team Section */
 #team {
   padding: 100px 0;
+  background: #f6f6f6;
 }
 #team h4 {
   margin: 5px 0;
@@ -460,7 +519,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #093762 0%, #6fa6de 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
